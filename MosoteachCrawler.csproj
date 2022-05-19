@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<PlatformTarget>x64</PlatformTarget>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<ApplicationManifest>MosoteachCrawler.manifest</ApplicationManifest>
+		<IsPublishable>False</IsPublishable>
+		<Product>MosoteachCrawler</Product>
+		<ProductName>MosoteachCrawler</ProductName>
+		<Copyright>Copyright © MosoteachCrawler 2020 - 2022</Copyright>
+		<Version>3.1.0.0</Version>
+		<FileVersion>3.1.0.0</FileVersion>
+		<ApplicationIcon>Pictures\LOGO_1.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Resource Include="Pictures\LOGO.png" />
+		<Resource Include="Pictures\关闭.png" />
+		<Resource Include="Pictures\最小化.png" />
+		<Resource Include="Pictures\LOGO_1.ico" />
+	</ItemGroup>
+
+</Project>
